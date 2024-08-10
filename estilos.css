@@ -1,0 +1,83 @@
+body {
+  background-color: #222121;
+  color: #ff0000;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.reproductor {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  }
+  
+  #reproducir, #pausar {
+    background-color: #000000;
+    color: #ff0000;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 12.5px;
+  }
+
+  
+  #reproducir:hover {
+    background-color: #ff0000;
+    color: #000000;
+    transition: 1.3s;
+  }
+
+  #pausar:hover {
+    background-color: #ff0000;
+    color: #000000;
+    transition: 1.3s;
+  }
+  
+  #volumen {
+    color: #ff0000;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  #tiempo {
+    background-color: #ff0000;
+    color: #000000;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #lista-canciones {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #lista-canciones:hover {
+    background-color: white;
+    color: #ff0000;
+    transition: 1.3s;
+    transform: scale(1.2);
+  }
+  
+  #lista-canciones li {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+  }
+  
+  
